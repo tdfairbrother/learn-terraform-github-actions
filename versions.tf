@@ -30,7 +30,7 @@ terraform {
     organization = "tdfairbrother"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "learn-terraform-provision-eks-cluster"
     }
   }
 

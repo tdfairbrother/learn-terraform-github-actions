@@ -26,6 +26,14 @@ terraform {
     }
   }
 
+  cloud {
+    organization = "tdfairbrother"
+
+    workspaces {
+      name = "gh-actions-demo"
+    }
+  }
+
   required_version = ">= 0.14"
 }
 
